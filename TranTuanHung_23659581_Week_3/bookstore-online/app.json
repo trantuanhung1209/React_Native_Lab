@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "bookstore-online",
+    "slug": "bookstore-online",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "bookstoreonline",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F8FAFC"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F8FAFC"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "bookstore-online",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "^54.0.37",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  },
+  "scripts": {
+    "start": "npx -y node@20.19.4 node_modules/expo/bin/cli start",
+    "android": "npx -y node@20.19.4 node_modules/expo/bin/cli start --android",
+    "ios": "npx -y node@20.19.4 node_modules/expo/bin/cli start --ios",
+    "web": "npx -y node@20.19.4 node_modules/expo/bin/cli start --web",
+    "typecheck": "npx -y node@20.19.4 node_modules/typescript/bin/tsc --noEmit"
+  },
+  "private": true
+}
