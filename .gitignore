@@ -1,4 +1,5 @@
 *.node_modules/
+Lab06/node_modules/
 *.expo/
 *.claude/
 
